@@ -106,6 +106,7 @@ hr{
 
 @media only screen and (max-width:824px){
     .content-about p{
+        font-size:36px;
         width:70%;
         padding-top:160px;
     }
@@ -117,7 +118,18 @@ hr{
         padding-top: 100px;
     }
     .rig-200{
-        right: 23%;
+        right: 17%;
         top: 56px;
+    }
+}
+@media only screen and (max-width:450px){
+    .content-about p{
+        font-size:30px;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .content-about p{
+        font-size:25px;
     }
 }

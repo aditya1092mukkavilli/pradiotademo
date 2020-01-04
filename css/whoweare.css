@@ -33,7 +33,18 @@ header{
 
 @media only screen and (max-width:770px){
     .bg-body{
-        height:130vh;
+        height:160vh;
     }
- 
+}
+
+@media only screen and (max-width:375px){
+    .bg-body{
+        height:190vh;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .bg-body{
+        height:258vh;
+    }
 }
