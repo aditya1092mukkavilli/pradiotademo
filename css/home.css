@@ -1,0 +1,123 @@
+
+.main-logo{
+    position: absolute;
+    top:55px;
+    height:60px;
+    
+}
+/*#071b4d*/
+a{
+    color:white !important;
+}
+a:hover{
+    color: #f5f7f9;
+}
+#main-top{
+    top: 0px;
+    padding: 30px;
+    background-color: #ffffff21;
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    justify-content: space-between;
+    position:relative;
+}
+
+.navigation{
+    position:relative;
+    z-index:1;
+}
+
+.navigation div{
+    display: inline-block;
+    padding: 10px;
+    padding-top: 26px;
+    vertical-align: -webkit-baseline-middle;
+    color:white;
+    font-size:16px;
+}
+
+.bg-img{
+    background-image: url("../resources/magic-keyboard-1109543.jpg");
+    height:80vh;
+    background-size: cover;
+    transform: skewY(-14deg);
+}
+.content-about{
+    background-color: rgba(18, 24, 99, 0.8784313725490196);
+    height: 80vh;
+}
+
+.content-about p{
+    font-size: 40px;
+    color: #ffffff;
+    transform: skewY(14deg) !important;
+    width: 55%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.rig-200{
+    right:5%;
+}
+
+.clients-section{
+    margin-top: 120px;
+    background-color: #1218630f;
+}
+
+.clients-section h2, .solution-partner h2{
+    color: #121863;
+    padding:50px;
+}
+
+/* .solution-partner h2{
+    color: #121863;
+    padding:50px;
+} */
+
+
+.clients-section p, .clients-section li {
+    line-height: 2.5;
+    color:#121863;
+}
+hr{
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+#otherheader{
+    top:-70px;
+    transition: top 0.3s;
+}
+
+
+@media only screen and  (max-width: 1170px){
+    .main-logo{
+        display:none;
+    }
+    .navigation{
+        display:none;
+    }
+    #otherheader{
+      top:0px;
+    }
+}
+
+@media only screen and (max-width:824px){
+    .content-about p{
+        width:70%;
+        padding-top:160px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .content-about p{
+        width: 70%;
+        padding-top: 100px;
+    }
+    .rig-200{
+        right: 23%;
+        top: 56px;
+    }
+}

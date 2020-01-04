@@ -1,0 +1,14 @@
+.contactus-bg{
+    background-image: url('../resources/Map.jpg');
+    height: 75vh;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width:1100px){
+    .contactus-bg{
+    height: 43vh;
+    background-size: contain;
+    background-position: right;
+    }
+}

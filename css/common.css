@@ -1,0 +1,101 @@
+body{
+    margin:0; 
+    padding:0;
+    scrollbar-width:1px;
+    color:#121863 !important;
+}
+
+#otherheader{
+    border-bottom: 1.5px solid #121863;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: ghostwhite;
+    z-index:1;
+    top:0;
+}
+
+.cust-collapse{
+    flex-direction: row-reverse;
+    color: #121863;
+}
+
+.cust-collapse ul li a{
+    color:#121863 !important;
+    text-align:center;
+}
+
+.cust-collapse ul li a:hover{
+   text-decoration: underline;
+}
+footer{
+    background-color:#121863;
+    height:auto;
+    color:white;
+}
+
+.mailInfo{
+    background-color:rgba(18, 23, 84, 0.9098039215686274);
+    padding:20px;
+}
+
+.mailInfo a{
+    color:white;
+    font-size:20px;
+    font-weight: bolder;
+}
+
+.alt-logo{
+    height:50px;
+}
+
+.img-heg-200{
+    height:200px;
+}
+
+.main-content{
+    margin-top:4rem
+}
+
+.main-content-bg
+{
+    top: 0px;
+    left: 0px;
+    background-color: rgba(49, 49, 108, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.about-text{
+    color:white;
+    line-height: 2;
+    font-size:20px;
+}
+
+.uline{
+    width: 160px;
+    border-bottom: 5px solid #121863;
+    margin-top: 12px !important;
+}
+
+.btn-knowmore{
+    background-color:white;
+    border-color: #121863;
+    width: 263px;
+    padding: 16px;
+    font-size: 24px;
+    color: #121863;
+    border-radius: 6px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+     transition-duration: 0.4s;
+}
+
+.btn-knowmore:hover{
+    background-color: #121863;
+    color:white !important;
+    transition: all 0.9s;
+}
+
+.btn-submit{
+    width: 150px;
+    padding: 2px;
+}

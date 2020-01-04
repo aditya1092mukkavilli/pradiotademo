@@ -1,0 +1,37 @@
+.whatwedo{
+margin-bottom:10px;
+}
+
+.mob,.quality{
+ background-color: #121863;
+ padding: 50px;
+ color: white;
+}
+
+.web,.support{
+    background-color: white;
+    height:67vh;
+    padding: 50px;
+    color: black;
+}
+
+.mob p,.quality p,  .web p, .support p {
+    line-height: 3;
+}
+.sub-head{
+    background-color: #121863;
+    border-bottom: 10px solid white;
+}
+
+.sub-head h2{
+    padding: 25px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (max-width:1187px){
+    .mob p,.quality p,  .web p, .support p {
+        line-height: 2;
+    }
+}

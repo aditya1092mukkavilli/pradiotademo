@@ -1,0 +1,35 @@
+.careers-content p{
+ font-size:20px;
+ padding:50px;
+ line-height: 2;
+}
+
+.benifits-list i{
+ font-size:40px;
+}
+body{
+    color:#121863;
+}
+
+.bg-lighter{
+    background-color: #F8F8FF;
+}
+
+.inner-desc{
+    border: 1px solid #F8F8FF;
+    background: #F8F8FF;
+    border-radius: 22px;
+
+}
+
+.bg-body{
+    height: 70vh;
+    width: 100%;
+}
+
+@media only screen and (max-width:1140px){
+    .bg-body{
+        height:90vh;
+    }
+
+}
