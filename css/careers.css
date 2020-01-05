@@ -23,18 +23,6 @@ body{
 }
 
 .bg-body{
-    height: 70vh;
+    height: auto;
     width: 100%;
-}
-
-@media only screen and (max-width:1140px){
-    .bg-body{
-        height:90vh;
-    }
-}
-
-@media only screen and (max-width:990px){
-    .bg-body{
-        height:40vh;
-    }
 }
