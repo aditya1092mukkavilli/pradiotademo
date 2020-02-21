@@ -9,7 +9,7 @@ body{
     border-bottom: 1.5px solid #121863;
     flex-direction: row-reverse;
     width: 100%;
-    background-color: ghostwhite;
+    background-color: white;
     z-index:1;
     top:0;
 }
